@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #ec715f;
+}
+.header-group{
+	width: 1024px;
+	margin: 0 auto;
+	height: 70px;
+}
+.logo{
+	height: 70px;
+	float: left;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.nav{
+	float: right;
+}
+.nav-list{
+	float: left;
+	width: 120px;
+	line-height: 70px;
+	color: #fafafa;
+	list-style: none;
+	font-size: 16px;
+	padding: 0 30px;
+}
+#mv{
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	color: #fafafa;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.mv-title-group{
+	width: 100%;
+	margin-top:200px;
+	float: left;
+}
+.mv-title{
+	font-family:sans-serif;
+	font-size: 64px;
+	color: #fafafa;
+}
+.mv-text{
+	padding-top: 10px;
+	font-size: 20px;
+	color: #fafafa;
+}
+#portfolio{
+	background-color:red;
+}
+.container{
+	width: 920px;
+}
+.portfolio-line{
+	height: 3px;
+	width: 70px;
+	background-color: #ec715f;
+	margin: 0 auto;
+}
+.heading{
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	font-family: 'raleway',sans-serif;
+}
+.heading-text{
+	text-align: center;
+}
+.picture-box{
+	margin: 0 auto;
+	padding: 30px 0 90px 0;
+	width: 920px;
+}
+.picture-item{
+	height: 250px;
+	width: 300px;
+	float: left;
+	padding: 5px;
+}
+
+/*Feature部分の作成*/
+.Feature-text{
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.Feature-box{
+	width: 70px;
+	height: 3px;
+	background-color: #ec715f;
+	margin: 0 auto;
+}
+
+.Feature-text-item{
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+.Feature-text-image-box{
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Feature-text-image{
+	width: 320px;
+	padding: 10px;
+	float: left;
+}
+.Feature-logo{
+	width: 60px;
+	height: 60px;
+}
+.feature-coment{
+	font-size: 20px;
+	padding: 10px 0;
+	color: #000000;
+}
+.Feature-image-text{
+	text-align: left;
+}
+
+
+/*profile部分の作成*/
+.profile{
+	background-color: #eceff1;
+}
+.profile-title-box{
+	width: 1024px;
+	padding-top: 90px;
+	padding-bottom: 8px;
+}
+	.profile-title-t{
+		font-size: 32px;
+		color: #000000;
+		text-align: center;
+	}
+.profile-title-text{
+	width: 1024px;
+	padding: 30px 0;
+}
+	.profile-title-text-t{
+		font-size: 16px;
+		color: #000000;
+		text-align: center;
+	}
+.profile-box1-group{
+	width: 1024px;
+}
+	.profile-box1{
+		width: 512px;
+		height: 250px;
+		float: left;
+	}
+		.profile-box1-photo{
+			width: 250px;
+			height: 250px;
+			margin: 0 auto;
+		}
+		.profile-box1-photo > img{
+			border-radius: 50%;
+		}
+
+	.profile-box2{
+		width: 512px;
+		height: 250px;
+		float: left;
+	}
+		.profile-box2-title1{
+			font-size: 20px;
+			padding-bottom: 5px;
+		}
+		.profile-box2-title2{
+			font-size: 20px;
+			padding-top: 20px;
+			padding-bottom: 5px;
+		}
+		#text{
+			font-size: 16px;
+			color: #000000;
+		}
+/*問い合わせ部分を作成する*/
+#contact{
+	width: 100%;
+}
+.contact-title{
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	text-align: center;
+}
+.contact-title2{
+	font-size: 16px;
+	color: #000000;
+	padding-top: 30px;
+	text-align: center;
+}
+.item-box{
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.item-box-adress{
+	width: 400px;
+	float: left;
+	margin: 0 auto;
+}
+.item-box-adress-title{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.item-box-adress-text{
+	padding-bottom: 20px;
+}
+.item-box-aico{
+	width: 400px;
+	margin: 0 auto;
+	float: left;
+}
+.item-box-aico2{
+	width: 100%
+	margin:  0 auto;
+	position: relative;
+}
+.item-box-aico-text{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.social{
+	padding: 20px;
+	float: left;
+	position: absolute;
+	font-size: 50px;
+	width: 100%;
+}
+.social i{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	font-size: 50px;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #ec715f;
+	text-align: center;
+	margin: 0 auto;
+}
+.footer-text{
+	font-size: 16px;
+	color: #fafafa;
+	line-height: 60px;
+}
+@media screen and (max-width: 767px){
+
+ header{
+ 	width: 90%;
+	text-align: center;
+}
+.header-group{
+	margin: 0 5%
+	text-align: center;
+
+}
+.logo{
+	float: none;
+}
+.container{
+	width: 90%;
+	margin: 0 5%;
+}
+
+.nav{
+	float: none;
+}
+.nav-list{
+	float: none;
+}
+#mv{
+	width: 90%;
+}
+.mv-title-group{
+	width: 100%;
+	float: none;
+}
+#portfolio{
+	width: 90%;
+}
+.portfolio-line{
+	text-align: center;
+}
+.picture-box{
+	width: 90%;
+	margin: 0 5%;
+	text-align: center;
+}
+.picture-item{
+	width: 100%;
+	float: none;
+}
+.Feature-box{
+	width: 90%;
+	margin: 0 5%;
+}
+.Feature-text-image-box{
+	width: 90%;
+	margin: 0 5%;
+}
+
+.Feature-text-image{
+	width: 90%;
+	float: none;
+}
+.profile-title-box{
+	width: 90%;
+}
+.profile-title-text{
+	width: 90%;
+}
+.profile-box1-group{
+	width: 90%;
+	margin: 0 5%;
+}
+	.profile-box1{
+		width: 512px;
+		float: none;
+	}
+	.profile-box2{
+		width: 90%;
+		float: none;
+	}
+#contact{
+	width: 90%;
+	margin: 0 5%;
+}
+.item-box{
+	width: 90%;
+}
+.item-box-adress{
+	width: 90%;
+	float: none;
+}
+.item-box-aico{
+	width: 90%;
+	float: none;
+}
+.item-box-aico2{
+	width: 100%
+}
+footer{
+	width: 90%;
+	margin: 0 5%;
+}
+}
+
+
+
+
+
+
+
+
